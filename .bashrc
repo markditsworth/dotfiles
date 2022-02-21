@@ -26,6 +26,7 @@ function pdf-resize () {
     fi
     gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/ebook -dNOPAUSE -dBATCH -sOutputFile=${output} ${input}
 }
+
 function git-squash () {
 	branch=$1
 	git checkout $branch
