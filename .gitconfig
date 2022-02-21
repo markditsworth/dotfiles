@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Mark Ditsworth
+	email = markditsworth@protonmail.com
+# Please adapt and uncomment the following lines:
+#	name = Mark Ditsworth
+#	email = markditsworth@protonmail.com
+[alias]
+	lg = log --all --decorate --oneline --graph
